@@ -1,0 +1,67 @@
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background:var(--backgrond);
+
+    font-family: 'Manrope', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    width: 120px;
+    text-align: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: var(--text-color-menu-mobile)
+}
+
+.btn {
+
+}
+
+.titulo-1{
+    font-size: 80px;
+    color:var(--text-color);
+    text-align: center;
+}
+
+.titulo-2{
+    font-size: 76px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 0px var(--button), -1px 1px 0px var(--button), 1px -1px 0px var(--button), -1px -1px 0px var(--button);  
+}
